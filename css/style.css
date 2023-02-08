@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:plum;
+ 
+    animation-name: navegacion;
+    animation-duration: 6s;
+}
+
+@keyframes navegacion {
+    from {background-color:plum ;}
+    to {background-color:rgb(120, 21, 94);}
+}
+.container-fluid img {
+    width: 100px;
+    height: auto;
+}
+
+.text-center{
+    background-color: plum;
+}
+
+.redes_sociales i {
+    font-size: 40px;
+}
+
+/*quienes somos*/
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
