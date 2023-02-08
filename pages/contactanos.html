@@ -1,97 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!--CDN FONTAWESONE-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--MI CSS-->
-    <link rel="stylesheet" href="../css/style.css ">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactanos</title>
+  <!--CSS Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!--CDN FONTAWESONE-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Mi CSS-->
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-
-  <header>
-  
-    <nav>
-      <ul class="navegacion" >
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="./trabajos.html">Trabajos realizados</a></li>
-        <li><a href="./sobremi.html">Sobre mi</a></li>
-        <li><a href="./contactanos.html">Contactanos</a></li>
-        <li><a href="./preguntasfrecuentes.html">Preguntas frecuentes</a></li>
-      </ul>
-    </nav>
-
-  </header>
-  <main>
-
-    <div class="contenedor_logo">
-      <a href="../index.html"></a><img class="logo" src="../assets/img/logo uma.jpeg " alt="logo">
-    </div>
-
-    <section>
-
-
-      <ul class="tiposdetrabajos">
-        <li><a href=></a>TODOS</li>
-        <li><a href=></a>MATES</li>
-        <li><a href=></a>CUADROS</li>
-        <li><a href=></a>BANDEJAS</li>
-        <li><a href=></a>CAJAS DE TÉ</li>
-      </ul>
-
-      <div class="foto">
-        <img src="../assets/img/mate 1.jpeg" alt="foto">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo uma.jpeg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./trabajos.html">Trabajos realizados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sobremi.html">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contactanos.html">Contactanos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./preguntasfrecuentes.html">Preguntas frecuentes</a>
+          </li>
+        </ul>
       </div>
-      
-
-      <form class="datospersonales">
-
-        <div>
-            <label for="nombre_apellido">Nombre y apellido:</label>	
-            <input type="text" required>
-        </div>
-        
-        <div>
-            <label for="telefono_email">Email:</label>	
-            <input type="email" name="telefono_email" />
-
-        </div>
-        
-        <div>
-            <textarea name="" id="" cols="30" rows="10">Ingrese su consulta</textarea>
-        </div>
-        
-        <div>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpiar formulario">
-        </div>
-        
-      </form>
-      
-    
-
-    </section>
-      
-  </main>
-
-
-  <footer class="text-center">
-    
-    <div class="redes_sociales">
-
-      <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-5x"></i></a>
-      <a href="https://www.instagram.com/uma.colors/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-5x"></i></a>
-      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-5x"></i></a>
-      <a href="fa-brands fa-cc-visa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-cc-visa"></i></a>
     </div>
+  </nav>
+  <section class="container">
+    <div class="row mt-4 gap-4 gap-md-0">
+      <div class="col-md-6">
+        <h4>Información del contacto</h4>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button bg-light text-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Teléfono
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                3512387748
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed bg-light text-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Direccion
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Calle publica C, CASA 25, B° Los Palmares.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed bg-light text-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Correo electronico
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                uma_color@gmail.com.ar
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h4>Envianos un mensaje</h4>
+        <form>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingresa tu email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
 
-    <p>
-    </p>
+    </div>
+  </section>
 
+  <footer class="text-center text-white" style="background-color:#131313;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.facebook.com/" target="_blank"
+          role="button" data-mdb-ripple-color="white"><i class="fab fa-facebook-f"></i></a>
+        <!-- Whatsapp-->
+        <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.whatsapp.com/" target="_blank"
+          role="button" data-mdb-ripple-color="dark"><i class="fa-brands fa-whatsapp"></i></a>
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-white m-1" href="https://www.instagram.com/" target="_blank"
+          role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color:#E9E9E9;">
+      Todos los derechos reservados
+      <a class="text-dark" href=""></a>
+    </div>
+    <!-- Copyright -->
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
